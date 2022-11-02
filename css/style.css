@@ -3,13 +3,19 @@
     padding:0;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+
 }
 
 body{
-    background-color: blue;
 }
 
                                                     /* common */
+
+.row{
+    display: flex;
+}
+
 
 ul{
     list-style-type: none;
@@ -26,6 +32,11 @@ a{
     align-items: center;
 }
 
+.blue-button{
+    background-color: #0061FF;
+    color:white;
+    border: none;
+}
 
 
 
@@ -38,18 +49,17 @@ header{
     background-color: white;
     display:flex;
     justify-content: space-between;
+    top:0;
 }
 
 
 header a{
     color:black;
-    font-size: 12px;
 }
 
 
 .col{    
     display: flex;
-    align-items: center;
 }
 
 .logo{
@@ -64,11 +74,13 @@ header a{
 
 .left-col-header{
     width:35%;
+    align-items: center;
 }
 
 .right-col-header{
     width:30%;
     justify-content: flex-end;
+    align-items: center;
 }
 
 .ul-right-header{
@@ -77,11 +89,58 @@ header a{
 
 header button{
     width: 50px;
+    padding: 5px;
 }
 
-.button-blue{
-    background-color: #0061FF;
-    color:white;
-    padding: 5px;
-    border: none;
+
+
+
+/* main */
+
+
+.jumbo-section{
+    padding-top: 140px;
+    background-color: #B4D0E7;
+}
+
+.jumbo-container{
+    width: 60%;
+    margin: 0 auto;
+}
+
+/* .jumbo-row{
+    height: 50%;
+} */
+
+h1{
+    font-weight: 800;
+    font-size: 56px;
+}
+
+.jumbo-text{
+    margin-top: 40px;
+    width: 30%;
+    position: relative;
+}
+
+
+.jumbo-img{
+    width: 70%;
+}
+
+.jumbo-img img{
+    width: 100%;
+    position: relative;
+    top: 40px;
+}
+
+.jumbo-button{
+    margin: 25px 0;
+    display: inline-block;
+    padding: 10px;
+}
+
+.jumbo-arrow-down{
+    margin-top: 50px;
+    font-size: 40px;
 }
