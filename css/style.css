@@ -51,6 +51,10 @@ a{
     color:grey;
 }
 
+.blue{
+    color: #0061FF;
+}
+
 
                                                     /* header */
 
@@ -63,6 +67,7 @@ header{
     justify-content: space-between;
     top:0;
     z-index:1;
+    box-shadow: 0 0 5px 1px rgb(194, 194, 194);
 }
 
 
@@ -219,7 +224,7 @@ label{
     margin: 40px 0;
 }
 
-.plan-service li{
+.main-plan li{
     margin-bottom: 15px;
     display: flex;
 }
@@ -232,3 +237,27 @@ label{
     position: relative;
     top: 2px;
 }
+
+.plan-button{
+    text-align: center;
+    padding: 10px;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.margin-bottom-30{
+    margin-bottom: 30px;
+}
+
+.partial-border{
+    margin-top: 30px;
+    width: 40px;
+    border-top:1px solid rgb(199, 199, 199);
+}
+
+.plan-benefit h4{
+    margin: 30px 0 20px;
+}
+
