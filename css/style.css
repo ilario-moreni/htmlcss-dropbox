@@ -196,7 +196,7 @@ label{
 }
 
 .main-plan{
-    padding: 30px 15px 30px;
+    padding: 30px;
 }
 
 .plan-title{
@@ -215,6 +215,20 @@ label{
     margin-bottom: 10px;
 }
 
-.plan-utility{
+.plan-service{
+    margin: 40px 0;
+}
 
+.plan-service li{
+    margin-bottom: 15px;
+    display: flex;
+}
+
+.plan-service p{
+    padding-left: 5px;
+}
+
+.icon-plan-list{
+    position: relative;
+    top: 2px;
 }
