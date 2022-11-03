@@ -46,7 +46,8 @@ a{
 }
 
 .bold, h3, h4{
-    font-weight: 500;
+
+    font-weight: 700;
 }
 
 .grey{
@@ -164,10 +165,14 @@ h1{
     font-size: 40px;
 }
 
-            /* business-plan */
-
 h2{
     font-size: 32px;
+
+}
+
+            /* business-plan */
+
+.section-business-plan h2{
     margin-top:100px;
     margin-bottom: 50px;
 }
@@ -306,4 +311,33 @@ label{
     padding:10px 15px;
     display: inline-block;
     margin-top: 30px;
+}
+
+.partner-section{
+    margin-bottom: 120px;
+}
+
+
+.function-section{
+    margin-bottom: 150px;
+}
+
+.function-row{
+    justify-content: space-between;
+}
+.function-col{
+    width: 30%;
+}
+
+.function-col img{
+    width: 100%;
+}
+
+.function-section h2{
+    margin-bottom: 50px;
+}
+
+.function-col h3{
+    font-size: 18px;
+    margin-bottom: 20px;
 }
