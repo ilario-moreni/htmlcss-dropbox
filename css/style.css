@@ -39,10 +39,17 @@ a{
 }
 
 .container{
-    width: 50%;
+    width: 60%;
     margin: 0 auto;
 }
 
+.bold{
+    font-weight: bold;
+}
+
+.grey{
+    color:grey;
+}
 
 
                                                     /* header */
@@ -108,7 +115,7 @@ header button{
 }
 
 .jumbo-container{
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
 }
 
@@ -165,4 +172,49 @@ label{
 .radio-buttons{
     display: flex;
     margin-bottom: 100px;
+}
+
+.row-plan-container{
+    justify-content: space-between;
+}
+
+.business-plan-col{
+    border: 1px solid rgb(199, 199, 199);
+    width: 30%;
+    margin-bottom: 100px;
+}
+
+.plan-singolo{
+    border-bottom: 1px solid rgb(199, 199, 199);
+}
+
+.top-plan{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 8px 0;
+}
+
+.main-plan{
+    padding: 30px 15px 30px;
+}
+
+.plan-title{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.icon-plan{
+    position: relative;
+    top: 2px;
+    padding-right: 5px;
+}
+
+.cost-plan{
+    margin-bottom: 10px;
+}
+
+.plan-utility{
+
 }
