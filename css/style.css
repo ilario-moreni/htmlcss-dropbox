@@ -7,10 +7,12 @@
 
 }
 
-body{
-}
+
 
                                                     /* common */
+
+
+
 
 .row, .col{
     display: flex;
@@ -43,8 +45,8 @@ a{
     margin: 0 auto;
 }
 
-.bold{
-    font-weight: bold;
+.bold, h3, h4{
+    font-weight: 500;
 }
 
 .grey{
@@ -55,6 +57,9 @@ a{
     color: #0061FF;
 }
 
+.margin-bottom-50{
+    margin-bottom: 50px;
+}
 
                                                     /* header */
 
@@ -176,7 +181,7 @@ label{
 
 .radio-buttons{
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .row-plan-container{
@@ -186,7 +191,7 @@ label{
 .business-plan-col{
     border: 1px solid rgb(199, 199, 199);
     width: 30%;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .plan-singolo{
@@ -206,7 +211,6 @@ label{
 
 .plan-title{
     font-size: 20px;
-    font-weight: 700;
     margin-bottom: 10px;
 }
 
@@ -261,3 +265,45 @@ label{
     margin: 30px 0 20px;
 }
 
+.row-footer-plan{
+    border: 1px solid rgb(199, 199, 199);
+    margin-bottom: 100px;
+}
+
+.row-footer-plan h3, .partner-text h3{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.main-plan-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-footer-plan{
+    width: 30%;
+    align-self: flex-start;
+}
+
+.partner-img{
+    width: 60%;
+}
+
+.partner-container{
+    display: flex;
+}
+
+.partner-text{
+    padding: 50px;
+}
+
+.partner-text p{
+    font-size: 14px;
+}
+
+.simple-button{
+    border: 1px solid black;
+    padding:10px 15px;
+    display: inline-block;
+    margin-top: 30px;
+}
