@@ -126,6 +126,10 @@ header button{
     padding: 5px;
 }
 
+h2{
+    font-size: 32px;
+
+}
 
 
 
@@ -179,10 +183,7 @@ h1{
     font-size: 40px;
 }
 
-h2{
-    font-size: 32px;
 
-}
 
             /* business-plan */
 
@@ -213,15 +214,15 @@ label{
     margin-bottom: 50px;
 }
 
-.plan-singolo{
-    border-bottom: 1px solid rgb(199, 199, 199);
-}
-
 .top-plan{
     display: flex;
     width: 100%;
     justify-content: center;
     padding: 8px 0;
+}
+
+.plan-singolo{
+    border-bottom: 1px solid rgb(199, 199, 199);
 }
 
 .main-plan{
@@ -245,8 +246,9 @@ label{
 
 .plan-service{
     margin: 40px 0;
+    min-height: calc(100vh / 5);
 }
-
+    
 .main-plan li{
     margin-bottom: 15px;
     display: flex;
@@ -305,6 +307,8 @@ label{
     align-self: flex-start;
 }
 
+/* partner section */
+
 .partner-img{
     width: 60%;
 }
@@ -334,6 +338,8 @@ label{
 }
 
 
+/* function section */
+
 .function-section{
     margin-bottom: 180px;
 }
@@ -358,6 +364,8 @@ label{
     margin-bottom: 20px;
 }
 
+/* team section */
+
 .team-top-container{
     width:60%;
     margin-bottom:100px;
@@ -365,10 +373,6 @@ label{
 
 .team-top-container a{
     margin-bottom: 100px;
-}
-
-.plan-service{
-    min-height: calc(100vh / 5);
 }
 
 .team-main-col{
@@ -459,7 +463,7 @@ label{
     width: 50%;
 }
 
-/* accordion */
+/* accordion (questions)*/
 
 .accordion{
     background-color: transparent;
