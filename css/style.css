@@ -11,7 +11,12 @@
 
                                                     /* common */
 
-
+.center-x-y{
+    position:absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
 
 .row, .col{
@@ -61,6 +66,13 @@ a{
 
 .margin-bottom-50{
     margin-bottom: 50px;
+}
+
+.simple-button-type-2{
+    background-color: white;
+    text-align: center;
+    padding: 10px 40px;
+    color:black;
 }
 
                                                     /* header */
@@ -263,7 +275,7 @@ label{
 
 .partial-border{
     margin-top: 30px;
-    width: 40px;
+    width: 25%;
     border-top:1px solid rgb(199, 199, 199);
 }
 
@@ -305,7 +317,7 @@ label{
 }
 
 .partner-text p{
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .simple-button{
@@ -347,6 +359,7 @@ label{
 
 .team-top-container{
     width:60%;
+    margin-bottom:100px;
 }
 
 .team-top-container a{
@@ -356,4 +369,93 @@ label{
 .plan-service{
     min-height: calc(100vh / 5);
 }
+
+.team-main-col{
+    width: calc(100vw / 3);
+    height: calc(100vw / 3);
+}
+
+
+.team-section{
+    margin-bottom: 100px;
+}
+
+.team-central-col{
+    background-color: #F5F5F5;
+    padding: 40px;
+}
+
+.team-central-col img{
+    width: calc(100vw / 6);
+}
+
+.row-50{
+    height: 50%;
+    width: 100%;
+}
+
+.team-square{
+    height:100%;
+    width: 100%;
+    position: relative;
+}
+
+.designit-square{
+    background-color: #A2D39B;
+    box-shadow:0px 0px 0px 15px #D1E9CD inset;
+}
+
+.team-square img{
+    width: calc(100vw / 12);
+    filter: brightness(0) invert(1);
+}
+
+.asu-square{
+    background-color: #61082B;
+}
+
+.uff-square{
+    background-color: #0093CE;
+}
+
+.topps-square{
+    background-color: #FF1C1C;
+}
+
+.wbr-square{
+    background-color: #D5001F;
+}
+
+.hearst-square{
+    background-color: #B4D0E7;
+}
+
+.lp-square{
+    background-color: #0D2481;
+}
+
+.cc-square{
+    background-color: #FFD830;
+}
+
+.central-p-team{
+    margin: 30px 0;
+    font-size: 13px;
+}
+
+.team-footer-bg{
+    background-color: #B4D0E7;
+    padding: 100px 0;
+}
+
+.team-footer-container{
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.team-footer-container h2{
+    color:#61082B;
+    width: 50%;
+}
+
 
