@@ -11,6 +11,7 @@
 
                                                     /* common */
 
+
 .center-x-y{
     position:absolute;
     top:50%;
@@ -47,7 +48,7 @@ a{
 }
 
 .container{
-    width: 60%;
+    width: 55%;
     margin: 0 auto;
 }
 
@@ -483,4 +484,51 @@ label{
 
 .li-accordion:hover{
     background-color: #F0F1F3;
+}
+
+                                                /* footer */
+
+footer{
+    background-color:black;
+    padding: 80px 0;
+}
+
+.footer-container{
+    width: 65%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.footer-partial-border-container{
+    width: 65%;
+    margin: 0 auto;    
+}
+
+.footer-partial-border{
+    margin-top: 80px;
+    margin-bottom: 50px;
+    width: 10%;
+    border-top:1px solid white;
+}
+
+footer h3{
+    color:white;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+
+.footer-li{
+    color:white;
+    font-size: 13px;
+}
+
+footer li:not(.not){
+    margin-bottom: 10px;
+}
+
+.select-lang{
+    background-color: transparent;
+    color:darkgrey;
+    border:none;
 }
