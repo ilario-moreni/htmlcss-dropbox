@@ -377,7 +377,7 @@ label{
 
 
 .team-section{
-    margin-bottom: 100px;
+    margin-bottom: 140px;
 }
 
 .team-central-col{
@@ -458,4 +458,29 @@ label{
     width: 50%;
 }
 
+/* accordion */
 
+.accordion{
+    background-color: transparent;
+    width: 100%;
+    margin-bottom: 120px;
+    margin-top:30px;
+}
+
+#first-li-accordion{
+    border: 1px rgb(150, 150, 150);
+    border-style: solid none solid none;
+}
+
+.li-accordion{
+    border:1px rgb(150, 150, 150);
+    border-style: none none solid none;
+}
+
+.li-accordion, .first-li-accordion{
+    padding: 30px 0;
+}
+
+.li-accordion:hover{
+    background-color: #F0F1F3;
+}
